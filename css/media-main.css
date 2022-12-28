@@ -266,7 +266,6 @@
 }
 
 
-/* @media (max-width: 340px) { */
 @media (max-width: 500px) {
 
     .container {
@@ -319,6 +318,7 @@
         right: 0;
         background-color: var(--color-dark-3xl);
         height: 100vh;
+        width: 100%;
         padding-top: 158px;
         z-index: 1;
         transition-property: opacity, visibility;
@@ -441,7 +441,6 @@
     }
 
     .pets__list {
-        /* display: grid; */
         margin-bottom: 18px;
     }
 
