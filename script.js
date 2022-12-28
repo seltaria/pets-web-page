@@ -26,6 +26,16 @@ let count = 0;
 let itemsInSlide = 3;
 let width;
 
+if (innerWidth >= 900) {
+    itemsInSlide = 3;
+}
+if (innerWidth < 900) {
+    itemsInSlide = 2;
+}
+if (innerWidth < 650) {
+    itemsInSlide = 1;
+}
+
 function init() {
     width = document.querySelector('.pets__list').offsetWidth;
     wrapper.style.width = width * items.length + 'px';
